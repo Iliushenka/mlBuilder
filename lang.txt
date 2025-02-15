@@ -1,0 +1,9 @@
+statement :== event <NAME> { expression } | func <NAME> { expression } | cycle <NAME, TIME> { expression }
+expression :== variable = { content } | func(NAME) | type.action({ content })
+multiplication :== { additive } * { additive } | { additive } / { additive } | { additive }
+additive :== { primary } + { primary } | { primary } - { primary } | { primary }
+primary :== variable |
+            number |
+            string |
+            code |
+            another type?

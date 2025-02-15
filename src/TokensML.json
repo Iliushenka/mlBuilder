@@ -1,0 +1,2027 @@
+{
+  "EVENT":
+          [
+            {
+              "name": "JOIN",
+              "customName": "join",
+              "path": [11, 0]
+            },
+            {
+              "name": "LEAVE",
+              "customName": "leave",
+              "path": [11, 1]
+            },
+            {
+              "name": "REJOIN",
+              "customName": "rejoin",
+              "path": [11, 2]
+            },
+            {
+              "name": "INTERACTION",
+              "customName": "interaction",
+              "path": [11, 3]
+            },
+            {
+              "name": "RIGHT_CLICK",
+              "customName": "rightClick",
+              "path": [11, 4]
+            },
+            {
+              "name": "LEFT_CLICK",
+              "customName": "leftClick",
+              "path": [11, 5]
+            },
+            {
+              "name": "RIGHT_CLICK_ENTITY",
+              "customName": "rightClickEntity",
+              "path": [11, 6]
+            },
+            {
+              "name": "PLACE_BLOCK",
+              "customName": "placeBlock",
+              "path": [11, 7]
+            },
+            {
+              "name": "BREAK_BLOCK",
+              "customName": "breakBlock",
+              "path": [11, 8]
+            },
+            {
+              "name": "PLAYER_FISHING",
+              "customName": "playerFishing",
+              "path": [11, 9]
+            },
+            {
+              "name": "DAMAGE_BLOCK",
+              "customName": "damageBlock",
+              "path": [11, 10]
+            },
+            {
+              "name": "LIKE",
+              "customName": "like",
+              "path": [11, 11]
+            },
+            {
+              "name": "GOLD_TRANSACTION",
+              "customName": "goldTransaction",
+              "path": [11, 12]
+            },
+            {
+              "name": "BUY_ADVERT",
+              "customName": "buyAdvert",
+              "path": [11, 13]
+            },
+            {
+              "name": "BUY_POINT",
+              "customName": "buyPoint",
+              "path": [11, 14]
+            },
+            {
+              "name": "STUDIO_TRANSACTION",
+              "customName": "studioTransaction",
+              "path": [11, 15]
+            },
+            {
+              "name": "ENTITY_SPAWN",
+              "customName": "entitySpawn",
+              "path": [11, 16]
+            },
+            {
+              "name": "OPENED_INVENTORY",
+              "customName": "openedInventory",
+              "path": [15, 0]
+            },
+            {
+              "name": "CLOSED_INVENTORY",
+              "customName": "closedInventory",
+              "path": [15, 1]
+            },
+            {
+              "name": "EDIT_BOOK",
+              "customName": "editBook",
+              "path": [15, 2]
+            },
+            {
+              "name": "BREAK_ITEM",
+              "customName": "breakItem",
+              "path": [15, 3]
+            },
+            {
+              "name": "CLICK_INVENTORY",
+              "customName": "clickInventory",
+              "path": [15, 4]
+            },
+            {
+              "name": "MOVE_INVENTORY",
+              "customName": "moveInventory",
+              "path": [15, 5]
+            },
+            {
+              "name": "PICKUP_ITEM",
+              "customName": "pickupItem",
+              "path": [15, 6]
+            },
+            {
+              "name": "DROP_ITEM",
+              "customName": "dropItem",
+              "path": [15, 7]
+            },
+            {
+              "name": "SWAP_HANDS",
+              "customName": "swapHands",
+              "path": [15, 8]
+            },
+            {
+              "name": "CRAFTED",
+              "customName": "crafted",
+              "path": [15, 9]
+            },
+            {
+              "name": "CHANGE_SLOT",
+              "customName": "changeSlot",
+              "path": [15, 10]
+            },
+            {
+              "name": "KILL_PLAYER",
+              "customName": "killPlayer",
+              "path": [28, 0]
+            },
+            {
+              "name": "DEATH_PLAYER",
+              "customName": "deathPlayer",
+              "path": [28, 1]
+            },
+            {
+              "name": "DAMAGE_PLAYER",
+              "customName": "damagePlayer",
+              "path": [28, 2]
+            },
+            {
+              "name": "PROJECTILE_DAMAGE_PLAYER",
+              "customName": "projectileDamagePlayer",
+              "path": [28, 3]
+            },
+            {
+              "name": "TAKE_DAMAGE_PLAYER",
+              "customName": "takeDamagePlayer",
+              "path": [28, 4]
+            },
+            {
+              "name": "TAKE_FALL_DAMAGE_PLAYER",
+              "customName": "takeFallDamagePlayer",
+              "path": [28, 5]
+            },
+            {
+              "name": "KILL_MOB_BY_PLAYER",
+              "customName": "killMobByPlayer",
+              "path": [28, 6]
+            },
+            {
+              "name": "KILL_PLAYER_BY_MOB",
+              "customName": "killPlayerByMob",
+              "path": [28, 7]
+            },
+            {
+              "name": "DAMAGE_MOB_BY_PLAYER",
+              "customName": "damageMobByPlayer",
+              "path": [28, 8]
+            },
+            {
+              "name": "DAMAGE_PLAYER_BY_MOB",
+              "customName": "damagePlayerByMob",
+              "path": [28, 9]
+            },
+            {
+              "name": "PROJECTILE_DAMAGE_MOB_BY_PLAYER",
+              "customName": "projectileDamageMobByPlayer",
+              "path": [28, 10]
+            },
+            {
+              "name": "PROJECTILE_KILL_MOB_BY_PLAYER",
+              "customName": "projectileKillMobByPlayer",
+              "path": [28, 11]
+            },
+            {
+              "name": "DEATH_MOB",
+              "customName": "deathMob",
+              "path": [28, 12]
+            },
+            {
+              "name": "TAKE_DAMAGE_MOB",
+              "customName": "takeDamageMob",
+              "path": [28, 13]
+            },
+            {
+              "name": "RESTORED_HEALTH_ENTITY",
+              "customName": "restoredHealtEntity",
+              "path": [28, 14]
+            },
+            {
+              "name": "SNEAK",
+              "customName": "sneak",
+              "path": [31, 0]
+            },
+            {
+              "name": "UNSNEAK",
+              "customName": "unsneak",
+              "path": [31, 1]
+            },
+            {
+              "name": "START_SPRINT",
+              "customName": "startSprint",
+              "path": [31, 2]
+            },
+            {
+              "name": "JUMP",
+              "customName": "jump",
+              "path": [31, 3]
+            },
+            {
+              "name": "STOP_SPRINT",
+              "customName": "stopSprint",
+              "path": [31, 4]
+            },{
+              "name": "MOVE",
+              "customName": "move",
+              "path": [31, 5]
+            },
+            {
+              "name": "ROTATE",
+              "customName": "rotate",
+              "path": [31, 6]
+            },
+            {
+              "name": "MESSAGE",
+              "customName": "message",
+              "path": [34, 0]
+            },
+            {
+              "name": "LAUNCH_PROJECTILE",
+              "customName": "launchProjectile",
+              "path": [34, 1]
+            },
+            {
+              "name": "COUNSUME_ITEM",
+              "customName": "consumeItem",
+              "path": [34, 2]
+            },
+            {
+              "name": "CHANGE_FOOD_LVL",
+              "customName": "changeFoodLvl",
+              "path": [34, 3]
+            }
+          ],
+  "PLAYER_ACTION":
+          [
+            {
+              "name": "GIVE_ITEM",
+              "customName": "giveItem",
+              "path": [0, 0]
+            },
+            {
+              "name": "SET_ITEM",
+              "customName": "setItem",
+              "path": [0, 1]
+            },
+            {
+              "name": "SET_ITEM_IN_ENDERCHEST",
+              "customName": "setItemEnder",
+              "path": [0, 2]
+            },
+            {
+              "name": "SET_ARMOR",
+              "customName": "setArmor",
+              "path": [0, 3]
+            },
+            {
+              "name": "SET_ITEM_IN_HAND",
+              "customName": "setItemHand",
+              "path": [0, 4]
+            },
+            {
+              "name": "SET_ITEM_IN_CURSOR",
+              "customName": "setItemCursor",
+              "path": [0, 5]
+            },
+            {
+              "name": "REMOVE_ITEM",
+              "customName": "removeItem",
+              "path": [0, 6]
+            },
+            {
+              "name": "CLEAR_INVENTORY",
+              "customName": "clearInventory",
+              "path": [0, 7]
+            },
+            {
+              "name": "CLEAR_ENDERCHEST",
+              "customName": "clearEnder",
+              "path": [0, 8]
+            },
+            {
+              "name": "SET_HOTBAR_SLOT",
+              "customName": "setHotbar",
+              "path": [0, 9]
+            },
+            {
+              "name": "GIVE_RANDOM_ITEM",
+              "customName": "giveRandomItem",
+              "path": [0, 10]
+            },
+            {
+              "name": "SAVE_INVENTORY",
+              "customName": "saveInventory",
+              "path": [0, 11]
+            },
+            {
+              "name": "LOAD_INVENTORY",
+              "customName": "loadInventory",
+              "path": [0, 12]
+            },
+            {
+              "name": "SET_DELAY_ITEM",
+              "customName": "setDelay",
+              "path": [0, 13]
+            },
+            {
+              "name": "GET_ITEM",
+              "customName": "getItem",
+              "path": [0, 14]
+            },
+            {
+              "name": "SET_ITEM",
+              "customName": "setItem",
+              "path": [0, 15]
+            },
+            {
+              "name": "GET_ITEM_COOLDOWN",
+              "customName": "getItemCooldown",
+              "path": [0, 16]
+            },
+            {
+              "name": "SEND_MESSAGE",
+              "customName": "sendMessage",
+              "path": [1, 0]
+            },
+            {
+              "name": "SEND_COMPONENT_MESSAGE",
+              "customName": "sendComponentMessage",
+              "path": [1, 1]
+            },
+            {
+              "name": "SEND_DIALOGUE",
+              "customName": "sendDialogue",
+              "path": [1, 2]
+            },
+            {
+              "name": "CLEAR_CHAT",
+              "customName": "clearChat",
+              "path": [1, 3]
+            },
+            {
+              "name": "PLAY_SOUND",
+              "customName": "playSound",
+              "path": [1, 4]
+            },
+            {
+              "name": "STOP_SOUND",
+              "customName": "stopSound",
+              "path": [1, 5]
+            },
+            {
+              "name": "SEND_TITLE",
+              "customName": "SEND_TITLE",
+              "path": [1, 6]
+            },
+            {
+              "name": "SEND_ACTIONBAR",
+              "customName": "sendActionbar",
+              "path": [1, 7]
+            },
+            {
+              "name": "SHOW_LINK",
+              "customName": "showLink",
+              "path": [1, 8]
+            },
+            {
+              "name": "OPEN_BOOK",
+              "customName": "openBook",
+              "path": [1, 9]
+            },
+            {
+              "name": "OPEN_MENU",
+              "customName": "openMenu",
+              "path": [2, 0]
+            },
+            {
+              "name": "EXPAND_MENU",
+              "customName": "expandMenu",
+              "path": [2, 1]
+            },
+            {
+              "name": "SET_ITEM_IN_MENU",
+              "customName": "setItemInMenu",
+              "path": [2, 2]
+            },
+            {
+              "name": "SET_MENU_NAME",
+              "customName": "setMenuName",
+              "path": [2, 3]
+            },
+            {
+              "name": "ADD_LINE_IN_MENU",
+              "customName": "addLineInMenu",
+              "path": [2, 4]
+            },
+            {
+              "name": "DELETE_LINE_IN_MENU",
+              "customName": "deleteLineInMenu",
+              "path": [2, 5]
+            },
+            {
+              "name": "CLOSE_INVENTORY",
+              "customName": "closeInventory",
+              "path": [2, 6]
+            },
+            {
+              "name": "OPEN_BLOCK_INVENTORY",
+              "customName": "openBlockInventory",
+              "path": [2, 7]
+            },
+            {
+              "name": "OPEN_ENTITY_INVENTORY",
+              "customName": "openEntityInventory",
+              "path": [2, 8]
+            },
+            {
+              "name": "TELEPORT",
+              "customName": "teleport",
+              "path": [3, 0]
+            },
+            {
+              "name": "ROTATE_TO_LOCATION",
+              "customName": "rotateToLocation",
+              "path": [3, 1]
+            },
+            {
+              "name": "RANDOM_TELEPORT",
+              "customName": "randomTeleport",
+              "path": [3, 2]
+            },
+            {
+              "name": "TELEPORT_SEQUENCE",
+              "customName": "teleportSequence",
+              "path": [3, 3]
+            },
+            {
+              "name": "LAUNCH_VERTICALLY",
+              "customName": "launchVertically",
+              "path": [3, 4]
+            },
+            {
+              "name": "LAUNCH_FORWARD",
+              "customName": "launchForward",
+              "path": [3, 5]
+            },
+            {
+              "name": "LAUNCH_TOWARD",
+              "customName": "launchToward",
+              "path": [3, 6]
+            },
+            {
+              "name": "LAUNCH_TO_LOCATION",
+              "customName": "launchToLocation",
+              "path": [3, 7]
+            },
+            {
+              "name": "KICK_PLAYER",
+              "customName": "kickPlayer",
+              "path": [3, 8]
+            },
+            {
+              "name": "MOVE_TO_GAME",
+              "customName": "moveToGame",
+              "path": [3, 9]
+            },
+            {
+              "name": "DAMAGE",
+              "customName": "damage",
+              "path": [4, 0]
+            },
+            {
+              "name": "SET_HEALTH",
+              "customName": "setHealth",
+              "path": [4, 1]
+            },
+            {
+              "name": "GIVE_POTION_EFFECT",
+              "customName": "givePotionEffect",
+              "path": [4, 2]
+            },
+            {
+              "name": "CLEAR_POTION_EFFECT",
+              "customName": "clearPotionEffect",
+              "path": [4, 3]
+            },
+            {
+              "name": "REMOVE_POTION_EFFECT",
+              "customName": "removePotionEffect",
+              "path": [4, 4]
+            },
+            {
+              "name": "SET_XP_LVL",
+              "customName": "setXpLvl",
+              "path": [4, 5]
+            },
+            {
+              "name": "SET_XP_PROGRESS",
+              "customName": "setXpProgress",
+              "path": [4, 6]
+            },
+            {
+              "name": "SET_HUNGER",
+              "customName": "setHunger",
+              "path": [4, 7]
+            },
+            {
+              "name": "SET_SATURATION",
+              "customName": "setSaturation",
+              "path": [4, 8]
+            },
+            {
+              "name": "SET_EXHAUSTION",
+              "customName": "setExhaustion",
+              "path": [4, 9]
+            },
+            {
+              "name": "SET_MAXIMUM_HEALTH",
+              "customName": "setMaximumHealth",
+              "path": [4, 10]
+            },
+            {
+              "name": "SET_ON_FIRE",
+              "customName": "setOnFire",
+              "path": [4, 11]
+            },
+            {
+              "name": "SET_FLIGHT_SPEED",
+              "customName": "setFlightSpeed",
+              "path": [4, 12]
+            },
+            {
+              "name": "SET_WALK_SPEED",
+              "customName": "setWalkSpeed",
+              "path": [4, 13]
+            },
+            {
+              "name": "SET_REMAINING_AIR",
+              "customName": "setRemainingAir",
+              "path": [4, 14]
+            },
+            {
+              "name": "SET_MAXIMUM_AIR",
+              "customName": "setMaximumAir",
+              "path": [4, 15]
+            },
+            {
+              "name": "SET_NAME",
+              "customName": "setName",
+              "path": [4, 16]
+            },
+            {
+              "name": "SET_DAMAGE",
+              "customName": "setDamage",
+              "path": [4, 17]
+            },
+            {
+              "name": "SET_SIZE",
+              "customName": "setSize",
+              "path": [4, 18]
+            },
+            {
+              "name": "SET_SOUND",
+              "customName": "setSound",
+              "path": [4, 19]
+            },
+            {
+              "name": "SET_GLOW",
+              "customName": "setGlow",
+              "path": [4, 20]
+            },
+            {
+              "name": "SET_VISIBILITY",
+              "customName": "setVisibility",
+              "path": [4, 21]
+            },
+            {
+              "name": "SET_GRAVITY",
+              "customName": "setGravity",
+              "path": [4, 22]
+            },
+            {
+              "name": "SET_INVINCIBILITY",
+              "customName": "setInvincibility",
+              "path": [4, 23]
+            },
+            {
+              "name": "DELETE_ENTITY",
+              "customName": "deleteEntity",
+              "path": [4, 24]
+            },
+            {
+              "name": "SET_FLIGHT",
+              "customName": "setFlight",
+              "path": [5, 0]
+            },
+            {
+              "name": "SET_GAMEMODE",
+              "customName": "setGamemode",
+              "path": [5, 1]
+            },
+            {
+              "name": "SET_KEEP_INVENTORY",
+              "customName": "setKeepInventory",
+              "path": [5, 2]
+            },
+            {
+              "name": "SHOW_SCOREBOARD",
+              "customName": "showScoreboard",
+              "path": [5, 3]
+            },
+            {
+              "name": "HIDE_SCOREBOARD",
+              "customName": "hideScoreboard",
+              "path": [5, 4]
+            },
+            {
+              "name": "SHOW_BOSSBAR",
+              "customName": "showBossbar",
+              "path": [5, 6]
+            },
+            {
+              "name": "HIDE_BOSSBAR",
+              "customName": "hideBossbar",
+              "path": [5, 7]
+            },
+            {
+              "name": "LAY_ON_BED",
+              "customName": "layOnBed",
+              "path": [6, 0]
+            },
+            {
+              "name": "WAKE_UP",
+              "customName": "wakeUp",
+              "path": [6, 1]
+            },
+            {
+              "name": "HAND_ANIMATION",
+              "customName": "handAnimation",
+              "path": [6, 2]
+            },
+            {
+              "name": "SNEAKING_STATE",
+              "customName": "sneakingState",
+              "path": [6, 3]
+            },
+            {
+              "name": "DAMAGE_ANIMATION",
+              "customName": "damageAnimation",
+              "path": [6, 4]
+            },
+            {
+              "name": "GOLD_TRANSACTION",
+              "customName": "goldTransaction",
+              "path": [7, 0]
+            }
+          ],
+  "SET_VARIABLE":
+          [
+            {
+              "name": "SET_VARIABLE",
+              "customName": "setVariable",
+              "path": [0, 0]
+            },
+            {
+              "name": "SET_ITEM_TO_VARIABLE",
+              "customName": "setItemToVariable",
+              "path": [0, 1]
+            },
+            {
+              "name": "SET_RANDOM_VALUE",
+              "customName": "setRandomValue",
+              "path": [0, 2]
+            },
+            {
+              "name": "SET_TIMESTAMP",
+              "customName": "setTimestamp",
+              "path": [0, 3]
+            },
+            {
+              "name": "SET_UNIX",
+              "customName": "setUnix",
+              "path": [0, 4]
+            },
+            {
+              "name": "SUM",
+              "customName": "sum",
+              "path": [1, 0]
+            },
+            {
+              "name": "DIFFERENCE",
+              "customName": "difference",
+              "path": [1, 1]
+            },
+            {
+              "name": "MULTIPLY",
+              "customName": "multiply",
+              "path": [1, 2]
+            },
+            {
+              "name": "QUOTIENT",
+              "customName": "quotient",
+              "path": [1, 3]
+            },
+            {
+              "name": "REMAINDER",
+              "customName": "remainder",
+              "path": [1, 4]
+            },
+            {
+              "name": "INCREMENT",
+              "customName": "increment",
+              "path": [1, 5]
+            },
+            {
+              "name": "DECREMENT",
+              "customName": "decrement",
+              "path": [1, 6]
+            },
+            {
+              "name": "SET_RANDOM_NUMBER",
+              "customName": "setRandomNumber",
+              "path": [1, 7]
+            },
+            {
+              "name": "ROUND_NUMBER",
+              "customName": "roundNumber",
+              "path": [1, 8]
+            },
+            {
+              "name": "MODULE",
+              "customName": "module",
+              "path": [1, 9]
+            },
+            {
+              "name": "MIN_NUMBER",
+              "customName": "minNumber",
+              "path": [1, 10]
+            },
+            {
+              "name": "MAX_NUMBER",
+              "customName": "maxNumber",
+              "path": [1, 11]
+            },
+            {
+              "name": "DEGREE_EXPANSION",
+              "customName": "degreeExpansion",
+              "path": [1, 12]
+            },
+            {
+              "name": "COSINUS",
+              "customName": "cosinus",
+              "path": [1, 13]
+            },
+            {
+              "name": "SINUS",
+              "customName": "sinus",
+              "path": [1, 14]
+            },
+            {
+              "name": "TANGENT",
+              "customName": "tangent",
+              "path": [1, 15]
+            },
+            {
+              "name": "ARC_SINUS",
+              "customName": "arcSinus",
+              "path": [1, 16]
+            },
+            {
+              "name": "ARC_COSINUS",
+              "customName": "arcCosinus",
+              "path": [1, 17]
+            },
+            {
+              "name": "ARC_TANGENT",
+              "customName": "arcTangent",
+              "path": [1, 18]
+            },
+            {
+              "name": "DEGREES",
+              "customName": "degrees",
+              "path": [1, 19]
+            },
+            {
+              "name": "LOGARITHM",
+              "customName": "logarithm",
+              "path": [1, 20]
+            },
+            {
+              "name": "SQUAR_ROOT",
+              "customName": "squarRoot",
+              "path": [1, 21]
+            },
+            {
+              "name": "EXPONENTIAL",
+              "customName": "exponential",
+              "path": [1, 22]
+            },
+            {
+              "name": "RADIANS",
+              "customName": "radians",
+              "path": [1, 23]
+            },
+            {
+              "name": "COMBINE_TEXT",
+              "customName": "combineText",
+              "path": [2, 0]
+            },
+            {
+              "name": "PARSE_NUMBER",
+              "customName": "parseNumber",
+              "path": [2, 1]
+            },
+            {
+              "name": "TRUNCATE_TEXT",
+              "customName": "truncateText",
+              "path": [2, 2]
+            },
+            {
+              "name": "SPLIT_TEXT",
+              "customName": "splitText",
+              "path": [2, 3]
+            },
+            {
+              "name": "GET_TEXT_LENGTH",
+              "customName": "getTextLength",
+              "path": [2, 4]
+            },
+            {
+              "name": "SET_TEXT_CASE",
+              "customName": "setTextCase",
+              "path": [2, 5]
+            },
+            {
+              "name": "TIME_FORMAT",
+              "customName": "timeFormat",
+              "path": [2, 6]
+            },
+            {
+              "name": "GET_LOCATION_VALUE",
+              "customName": "getLocationValue",
+              "path": [3, 0]
+            },
+            {
+              "name": "GET_LOCATION_DISTANCE",
+              "customName": "getLocationDistance",
+              "path": [3, 1]
+            },
+            {
+              "name": "SET_LOCATION",
+              "customName": "setLocation",
+              "path": [3, 2]
+            },
+            {
+              "name": "GET_BLOCK",
+              "customName": "getBlock",
+              "path": [3, 3]
+            },
+            {
+              "name": "GET_ITEM_VALUE",
+              "customName": "getItemValue",
+              "path": [4, 0]
+            },
+            {
+              "name": "GET_ITEM_LORE",
+              "customName": "getItemLore",
+              "path": [4, 1]
+            },
+            {
+              "name": "SET_ITEM_AMOUNT",
+              "customName": "setItemAmount",
+              "path": [4, 2]
+            },
+            {
+              "name": "SET_ITEM_DURABILITY",
+              "customName": "setItemDurability",
+              "path": [4, 3]
+            },
+            {
+              "name": "SET_ITEM_LORE",
+              "customName": "setItemLore",
+              "path": [4, 4]
+            },
+            {
+              "name": "SET_ITEM_NAME",
+              "customName": "setItemName",
+              "path": [4, 5]
+            },
+            {
+              "name": "ADD_ITEM_LORE",
+              "customName": "addItemLore",
+              "path": [4, 6]
+            },
+            {
+              "name": "DELETE_ITEM_LORE",
+              "customName": "deleteItemLore",
+              "path": [4, 7]
+            },
+            {
+              "name": "GET_PAGE_BOOK",
+              "customName": "getPageBook",
+              "path": [4, 8]
+            },
+            {
+              "name": "SET_PAGE_BOOK",
+              "customName": "setPageBook",
+              "path": [4, 9]
+            },
+            {
+              "name": "SET_POPUP_TEXT",
+              "customName": "setPopupText",
+              "path": [5, 0]
+            },
+            {
+              "name": "SET_CLICK_EVENT_TEXT",
+              "customName": "setClickEventText",
+              "path": [5, 1]
+            },
+            {
+              "name": "COMBINE_TEXT_COMPONENT",
+              "customName": "combineTextComponent",
+              "path": [5, 0]
+            }
+          ],
+  "GAME_ACTION":
+          [
+            {
+              "name": "SPAWN_ENTITY",
+              "customName": "spawnEntity",
+              "path": [0, 0]
+            },
+            {
+              "name": "SPAWN_NPC",
+              "customName": "spawnNpc",
+              "path": [0, 1]
+            },
+            {
+              "name": "SPAWN_ITEM",
+              "customName": "spawnItem",
+              "path": [0, 2]
+            },
+            {
+              "name": "LAUNCH_FIREWORK",
+              "customName": "launchFirework",
+              "path": [0, 3]
+            },
+            {
+              "name": "SPAWN_TNT",
+              "customName": "spawnTnt",
+              "path": [0, 4]
+            },
+            {
+              "name": "SPAWN_VEHICLE",
+              "customName": "spawnVehicle",
+              "path": [0, 5]
+            },
+            {
+              "name": "SPAWN_XP_ORB",
+              "customName": "spawnXpOrb",
+              "path": [0, 6]
+            },
+            {
+              "name": "SPAWN_LIGHTNING",
+              "customName": "spawnLightning",
+              "path": [0, 7]
+            },
+            {
+              "name": "WAIT",
+              "customName": "wait",
+              "path": [1, 0]
+            },
+            {
+              "name": "START_LOOP",
+              "customName": "startLoop",
+              "path": [1, 1]
+            },
+            {
+              "name": "STOP_LOOP",
+              "customName": "stopLoop",
+              "path": [1, 2]
+            },
+            {
+              "name": "CANCEL",
+              "customName": "cancel",
+              "path": [1, 3]
+            },
+            {
+              "name": "CALL_FUNCTION",
+              "customName": "callFunction",
+              "path": [1, 4]
+            },
+            {
+              "name": "SET_BLOCK",
+              "customName": "setBlock",
+              "path": [2, 0]
+            },
+            {
+              "name": "FILL_REGION",
+              "customName": "fillRegion",
+              "path": [2, 1]
+            },
+            {
+              "name": "BREAK_BLOCK",
+              "customName": "breakBlock",
+              "path": [2, 2]
+            },
+            {
+              "name": "COPY_BLOCK",
+              "customName": "copyBlock",
+              "path": [2, 3]
+            },
+            {
+              "name": "FILL_CONTAINER",
+              "customName": "fillContainer",
+              "path": [2, 4]
+            },
+            {
+              "name": "DELETE_ITEM_FROM_CONTAINER",
+              "customName": "deleteItemFromContainer",
+              "path": [2, 5]
+            },
+            {
+              "name": "SET_ITEM_FROM_CONTAINER",
+              "customName": "setItemFromContainer",
+              "path": [2, 6]
+            },
+            {
+              "name": "CLEAR_ITEMS_FROM_CONTAINER",
+              "customName": "clearItemsFromContainer",
+              "path": [2, 7]
+            },
+            {
+              "name": "CHANGE_SIGN",
+              "customName": "changeSign",
+              "path": [2, 8]
+            },
+            {
+              "name": "CHANGE_CONTAINER_NAME",
+              "customName": "changeContainerName",
+              "path": [2, 9]
+            },
+            {
+              "name": "GET_ITEM_FROM_CONTAINER",
+              "customName": "getItemFromContainer",
+              "path": [2, 10]
+            },
+            {
+              "name": "SET_ITEM_IN_ENDER_CHEST",
+              "customName": "setItemInEnderChest",
+              "path": [2, 11]
+            },
+            {
+              "name": "GET_ITEM_FROM_ENDER_CHEST",
+              "customName": "getItemFromEnderChest",
+              "path": [2, 12]
+            },
+            {
+              "name": "GET_ITEMS_FROM_CONTAINER",
+              "customName": "getItemsFromContainer",
+              "path": [2, 13]
+            },
+            {
+              "name": "GET_SIGN_VALUE",
+              "customName": "getSignValue",
+              "path": [2, 14]
+            },
+            {
+              "name": "CREATE_EXPLOSION",
+              "customName": "createExplosion",
+              "path": [3, 0]
+            },
+            {
+              "name": "PLAY_FIREWORK_EXPLOSION",
+              "customName": "playFireworkExplosion",
+              "path": [3, 1]
+            },
+            {
+              "name": "PLAY_PARTICLE",
+              "customName": "playParticle",
+              "path": [3, 2]
+            },
+            {
+              "name": "PLAY_PARTICLE_LINE",
+              "customName": "playParticleLine",
+              "path": [3, 3]
+            },
+            {
+              "name": "CREATE_HOLOGRAM",
+              "customName": "createHologram",
+              "path": [3, 4]
+            },
+            {
+              "name": "DELETE_HOLOGRAM",
+              "customName": "deleteHologram",
+              "path": [3, 5]
+            },
+            {
+              "name": "CREATE_SCOREBOARD",
+              "customName": "createScoreboard",
+              "path": [4, 0]
+            },
+            {
+              "name": "DELETE_SCOREBOARD",
+              "customName": "deleteScoreboard",
+              "path": [4, 1]
+            },
+            {
+              "name": "SET_SCOREBOARD_SCORE",
+              "customName": "setScoreboardScore",
+              "path": [4, 2]
+            },
+            {
+              "name": "REMOVE_SCOREBOARD_SCORE",
+              "customName": "removeScoreboardScore",
+              "path": [4, 3]
+            },
+            {
+              "name": "SET_WEATHER",
+              "customName": "setWeather",
+              "path": [5, 0]
+            },
+            {
+              "name": "SET_GAME_TIME",
+              "customName": "setGameTime",
+              "path": [5, 1]
+            },
+            {
+              "name": "CREATE_BOSSBAR",
+              "customName": "createBossbar",
+              "path": [5, 2]
+            },
+            {
+              "name": "DELETE_BOSSBAR",
+              "customName": "deleteBossbar",
+              "path": [5, 3]
+            },
+            {
+              "name": "SET_BOSSBAR_TITLE",
+              "customName": "setBossbarTitle",
+              "path": [5, 4]
+            },
+            {
+              "name": "SET_BOSSBAR_COLOR",
+              "customName": "setBossbarColor",
+              "path": [5, 5]
+            },
+            {
+              "name": "SET_BOSSBAR_STYLE",
+              "customName": "setBossbarStyle",
+              "path": [5, 6]
+            },
+            {
+              "name": "SET_BOSSBAR_PROGRESS",
+              "customName": "setBossbarProgress",
+              "path": [5, 7]
+            },
+            {
+              "name": "READ_DATA_FROM_CHANNEL",
+              "customName": "readDataFromChannel",
+              "path": [6, 0]
+            },
+            {
+              "name": "SEND_DATA_THROUGH_CHANNEL",
+              "customName": "sendDataThroughChannel",
+              "path": [6, 1]
+            },
+            {
+              "name": "SEND_Array_THROUGH_CHANNEL",
+              "customName": "sendArrayThroughChannel",
+              "path": [6, 1]
+            }
+          ],
+  "ARRAY_ACTION":
+          [
+            {
+              "name": "CREATE_ARRAY",
+              "customName": "createArray",
+              "path": [0]
+            },
+            {
+              "name": "GET_ELEMENT",
+              "customName": "getElement",
+              "path": [1]
+            },
+            {
+              "name": "INSERT_ELEMENT",
+              "customName": "insertElement",
+              "path": [2]
+            },
+            {
+              "name": "REPLACE_ELEMENT",
+              "customName": "replaceElement",
+              "path": [3]
+            },
+            {
+              "name": "DELETE_ELEMENT",
+              "customName": "deleteElement",
+              "path": [4]
+            },
+            {
+              "name": "APPEND_ELEMENT",
+              "customName": "appendElement",
+              "path": [5]
+            },
+            {
+              "name": "COMBINE_ARRAY",
+              "customName": "combineArray",
+              "path": [6]
+            },
+            {
+              "name": "COPY_ARRAY",
+              "customName": "copyArray",
+              "path": [7]
+            },
+            {
+              "name": "GET_LENGTH",
+              "customName": "getLength",
+              "path": [8]
+            },
+            {
+              "name": "SORT_ARRAY",
+              "customName": "sortArray",
+              "path": [9]
+            },
+            {
+              "name": "CONVERT_ARRAY_TO_STRING",
+              "customName": "convertArrayToString",
+              "path": [10]
+            }
+          ],
+  "IF_GAME":
+          [
+            {
+              "name": "BLOCK_EQUAL",
+              "customName": "blockEqual",
+              "path": [0]
+            },
+            {
+              "name": "CONTAINER_HAS_ITEM",
+              "customName": "containerHasItem",
+              "path": [1]
+            },
+            {
+              "name": "SIGN_CONTAINS",
+              "customName": "signContains",
+              "path": [2]
+            }
+          ],
+  "IF_VARIABLE":
+          [
+            {
+              "name": "VARIABLE_EQUAL",
+              "customName": "variableEqual",
+              "path": [0]
+            },
+            {
+              "name": "VARIABLE_NOT_EQUAL",
+              "customName": "variableNotEqual",
+              "path": [1]
+            },
+            {
+              "name": "COMPARE_NUMBER",
+              "customName": "compareNumber",
+              "path": [2]
+            },
+            {
+              "name": "COMPARE_INTERVAL",
+              "customName": "compareInterval",
+              "path": [3]
+            },
+            {
+              "name": "TEXT_EQUAL",
+              "customName": "textEqual",
+              "path": [4]
+            },
+            {
+              "name": "TEXT_CONTAIN",
+              "customName": "textContain",
+              "path": [5]
+            },
+            {
+              "name": "VARIABLE_EXIST",
+              "customName": "variableExist",
+              "path": [6]
+            },
+            {
+              "name": "LOCATE_IN_REGION",
+              "customName": "locateInRegion",
+              "path": [7]
+            },
+            {
+              "name": "TEXT_START_WITH",
+              "customName": "textStartWith",
+              "path": [8]
+            },
+            {
+              "name": "TEXT_END_WITH",
+              "customName": "textEndWith",
+              "path": [9]
+            }
+          ],
+  "IF_ENTITY":
+          [
+            {
+              "name": "ENTITY_TYPE",
+              "customName": "entityType",
+              "path": [0]
+            },
+            {
+              "name": "ENTITY_NAME_EQUAL",
+              "customName": "entityNameEqual",
+              "path": [1]
+            },
+            {
+              "name": "ENTITY_STAND_ON_BLOCK",
+              "customName": "entityStandOnBlock",
+              "path": [2]
+            },
+            {
+              "name": "ENTITY_NEAR_LOCATION",
+              "customName": "entityNearLocation",
+              "path": [3]
+            },
+            {
+              "name": "ENTITY_IS_MOB",
+              "customName": "entityIsMob",
+              "path": [4]
+            },
+            {
+              "name": "ENTITY_IS_NPC",
+              "customName": "entityIsNpc",
+              "path": [5]
+            },
+            {
+              "name": "ENTITY_IS_PROJECTILE",
+              "customName": "entityIsProjectile",
+              "path": [6]
+            },
+            {
+              "name": "ENTITY_HAS_POTION_EFFECT",
+              "customName": "entityHasPotionEffect",
+              "path": [7]
+            }
+          ],
+  "IF_PLAYER":
+          [
+            {
+              "name": "NAME_EQUAL",
+              "customName": "nameEqual",
+              "path": [0, 0]
+            },
+            {
+              "name": "MESSAGE_EQUAL",
+              "customName": "messageEqual",
+              "path": [0, 1]
+            },
+            {
+              "name": "INTERACTION_TYPE",
+              "customName": "interactionType",
+              "path": [0, 2]
+            },
+            {
+              "name": "HAND_USED_EQUAL",
+              "customName": "handUsedEqual",
+              "path": [0, 3]
+            },
+            {
+              "name": "HAS_GOLD_TRANSACTION",
+              "customName": "hasGoldTransaction",
+              "path": [0, 4]
+            },
+            {
+              "name": "GAMEMODE_EQUAL",
+              "customName": "gamemodeEqual",
+              "path": [0, 5]
+            },
+            {
+              "name": "RIGTH_EQUAL",
+              "customName": "rigthEqual",
+              "path": [0, 6]
+            },
+            {
+              "name": "HOLDING_ITEM",
+              "customName": "holdingItem",
+              "path": [1, 0]
+            },
+            {
+              "name": "HAS_ITEM",
+              "customName": "hasItem",
+              "path": [1, 1]
+            },
+            {
+              "name": "WEARING_ITEM",
+              "customName": "wearingItem",
+              "path": [1, 2]
+            },
+            {
+              "name": "ITEM_EQUAL",
+              "customName": "itemEqual",
+              "path": [1, 3]
+            },
+            {
+              "name": "ITEM_IN_CURSOR_EQUAL",
+              "customName": "itemInCursorEqual",
+              "path": [1, 4]
+            },
+            {
+              "name": "ITEM_HAS_DELAY",
+              "customName": "itemHasDelay",
+              "path": [1, 5]
+            },
+            {
+              "name": "CLICK_TYPE",
+              "customName": "clickType",
+              "path": [1, 6]
+            },
+            {
+              "name": "CLICKED_SLOT_EQUAL",
+              "customName": "clickedSlotEqual",
+              "path": [1, 7]
+            },
+            {
+              "name": "HOTBAR_SLOT_EQUAL",
+              "customName": "hotbarSlotEqual",
+              "path": [1, 8]
+            },
+            {
+              "name": "OPEN_INVENTORY_NAME_EQUAL",
+              "customName": "openInventoryNameEqual",
+              "path": [1, 9]
+            },
+            {
+              "name": "INVENTORY_FULL",
+              "customName": "inventoryFull",
+              "path": [1, 10]
+            },
+            {
+              "name": "LOOK_AT_BLOCK",
+              "customName": "lookAtBlock",
+              "path": [2, 0]
+            },
+            {
+              "name": "STAND_ON_BLOCK",
+              "customName": "standOnBlock",
+              "path": [2, 1]
+            },
+            {
+              "name": "PLAYER_NEAR_LOCATION",
+              "customName": "playerNearLocation",
+              "path": [2, 2]
+            },
+            {
+              "name": "BLOCK_EQUAL",
+              "customName": "blockEqual",
+              "path": [2, 3]
+            },
+            {
+              "name": "IS_SNEAKING",
+              "customName": "isSneaking",
+              "path": [3, 4]
+            },
+            {
+              "name": "IS_BLOCKING",
+              "customName": "isBlocking",
+              "path": [3, 5]
+            },
+            {
+              "name": "IS_GLIDING",
+              "customName": "isGliding",
+              "path": [3, 6]
+            },
+            {
+              "name": "IS_SPRINTING",
+              "customName": "isSprinting",
+              "path": [3, 7]
+            },
+            {
+              "name": "IS_FLYING",
+              "customName": "isFlying",
+              "path": [3, 8]
+            },
+            {
+              "name": "IS_SWIMMING",
+              "customName": "isSwimming",
+              "path": [3, 9]
+            },
+            {
+              "name": "IS_LIKED",
+              "customName": "isLiked",
+              "path": [3, 9]
+            }
+          ],
+  "SELECT_OBJECT":
+          [
+            {
+              "name": "SELECT_DEFAULT_PLAYER",
+              "customName": "selectDefaultPlayer",
+              "path": [0]
+            },
+            {
+              "name": "SELECT_DEFAULT_ENTITY",
+              "customName": "selectDefaultEntity",
+              "path": [1]
+            },
+            {
+              "name": "SELECT_RANDOM_PLAYER",
+              "customName": "selectRandomPlayer",
+              "path": [2]
+            },
+            {
+              "name": "SELECT_RANDOM_MOB",
+              "customName": "selectRandomMob",
+              "path": [3]
+            },
+            {
+              "name": "SELECT_RANDOM_ENTITY",
+              "customName": "selectRandomEntity",
+              "path": [4]
+            },
+            {
+              "name": "SELECT_ALL_PLAYERS",
+              "customName": "selectAllPlayers",
+              "path": [5]
+            },
+            {
+              "name": "SELECT_ALL_MOBS",
+              "customName": "selectAllMobs",
+              "path": [6]
+            },
+            {
+              "name": "SELECT_ALL_ENTITIES",
+              "customName": "selectAllEntities",
+              "path": [7]
+            },
+            {
+              "name": "SELECT_LAST_SPAWNED_ENTITY",
+              "customName": "selectLastSpawnedEntity",
+              "path": [8]
+            },
+            {
+              "name": "FILTER_SELECTION_RANDOM",
+              "customName": "filterSelectionRandom",
+              "path": [9]
+            },
+            {
+              "name": "VARIABLE_EQUAL",
+              "customName": "variableEqual",
+              "path": [10, 2, 0]
+            },
+            {
+              "name": "VARIABLE_NOT_EQUAL",
+              "customName": "variableNotEqual",
+              "path": [10, 2, 1]
+            },
+            {
+              "name": "COMPARE_NUMBER",
+              "customName": "compareNumber",
+              "path": [10, 2, 2]
+            },
+            {
+              "name": "COMPARE_INTERVAL",
+              "customName": "compareInterval",
+              "path": [10, 2, 3]
+            },
+            {
+              "name": "TEXT_EQUAL",
+              "customName": "textEqual",
+              "path": [10, 2, 4]
+            },
+            {
+              "name": "TEXT_CONTAIN",
+              "customName": "textContain",
+              "path": [10, 2, 5]
+            },
+            {
+              "name": "VARIABLE_EXIST",
+              "customName": "variableExist",
+              "path": [10, 2, 6]
+            },
+            {
+              "name": "LOCATE_IN_REGION",
+              "customName": "locateInRegion",
+              "path": [10, 2, 7]
+            },
+            {
+              "name": "TEXT_START_WITH",
+              "customName": "textStartWith",
+              "path": [10, 2, 8]
+            },
+            {
+              "name": "TEXT_END_WITH",
+              "customName": "textEndWith",
+              "path": [10, 2, 9]
+            },
+            {
+              "name": "NAME_EQUAL",
+              "customName": "nameEqual",
+              "path": [10, 6, 0, 0]
+            },
+            {
+              "name": "MESSAGE_EQUAL",
+              "customName": "messageEqual",
+              "path": [10, 6, 0, 1]
+            },
+            {
+              "name": "INTERACTION_TYPE",
+              "customName": "interactionType",
+              "path": [10, 6, 0, 2]
+            },
+            {
+              "name": "HAND_USED_EQUAL",
+              "customName": "handUsedEqual",
+              "path": [10, 6, 0, 3]
+            },
+            {
+              "name": "HAS_GOLD_TRANSACTION",
+              "customName": "hasGoldTransaction",
+              "path": [10, 6, 0, 4]
+            },
+            {
+              "name": "GAMEMODE_EQUAL",
+              "customName": "gamemodeEqual",
+              "path": [10, 6, 0, 5]
+            },
+            {
+              "name": "RIGTH_EQUAL",
+              "customName": "rigthEqual",
+              "path": [10, 6, 0, 6]
+            },
+            {
+              "name": "HOLDING_ITEM",
+              "customName": "holdingItem",
+              "path": [10, 6, 1, 0]
+            },
+            {
+              "name": "HAS_ITEM",
+              "customName": "hasItem",
+              "path": [10, 6, 1, 1]
+            },
+            {
+              "name": "WEARING_ITEM",
+              "customName": "wearingItem",
+              "path": [10, 6, 1, 2]
+            },
+            {
+              "name": "ITEM_EQUAL",
+              "customName": "itemEqual",
+              "path": [10, 6, 1, 3]
+            },
+            {
+              "name": "ITEM_IN_CURSOR_EQUAL",
+              "customName": "itemInCursorEqual",
+              "path": [10, 6, 1, 4]
+            },
+            {
+              "name": "ITEM_HAS_DELAY",
+              "customName": "itemHasDelay",
+              "path": [10, 6, 1, 5]
+            },
+            {
+              "name": "CLICK_TYPE",
+              "customName": "clickType",
+              "path": [10, 6, 1, 6]
+            },
+            {
+              "name": "CLICKED_SLOT_EQUAL",
+              "customName": "clickedSlotEqual",
+              "path": [10, 6, 1, 7]
+            },
+            {
+              "name": "HOTBAR_SLOT_EQUAL",
+              "customName": "hotbarSlotEqual",
+              "path": [10, 6, 1, 8]
+            },
+            {
+              "name": "OPEN_INVENTORY_NAME_EQUAL",
+              "customName": "openInventoryNameEqual",
+              "path": [10, 6, 1, 9]
+            },
+            {
+              "name": "INVENTORY_FULL",
+              "customName": "inventoryFull",
+              "path": [10, 6, 1, 10]
+            },
+            {
+              "name": "LOOK_AT_BLOCK",
+              "customName": "lookAtBlock",
+              "path": [10, 6, 2, 0]
+            },
+            {
+              "name": "STAND_ON_BLOCK",
+              "customName": "standOnBlock",
+              "path": [10, 6, 2, 1]
+            },
+            {
+              "name": "PLAYER_NEAR_LOCATION",
+              "customName": "playerNearLocation",
+              "path": [10, 6, 2, 2]
+            },
+            {
+              "name": "BLOCK_EQUAL",
+              "customName": "blockEqual",
+              "path": [10, 6, 2, 3]
+            },
+            {
+              "name": "IS_SNEAKING",
+              "customName": "isSneaking",
+              "path": [10, 6, 3, 4]
+            },
+            {
+              "name": "IS_BLOCKING",
+              "customName": "isBlocking",
+              "path": [10, 6, 3, 5]
+            },
+            {
+              "name": "IS_GLIDING",
+              "customName": "isGliding",
+              "path": [10, 6, 3, 6]
+            },
+            {
+              "name": "IS_SPRINTING",
+              "customName": "isSprinting",
+              "path": [10, 6, 3, 7]
+            },
+            {
+              "name": "IS_FLYING",
+              "customName": "isFlying",
+              "path": [10, 6, 3, 8]
+            },
+            {
+              "name": "IS_SWIMMING",
+              "customName": "isSwimming",
+              "path": [10, 6, 3, 9]
+            },
+            {
+              "name": "IS_LIKED",
+              "customName": "isLiked",
+              "path": [10, 6, 3, 9]
+            },
+            {
+              "name": "VARIABLE_EQUAL",
+              "customName": "variableEqual",
+              "path": [11, 2, 0]
+            },
+            {
+              "name": "VARIABLE_NOT_EQUAL",
+              "customName": "variableNotEqual",
+              "path": [11, 2, 1]
+            },
+            {
+              "name": "COMPARE_NUMBER",
+              "customName": "compareNumber",
+              "path": [11, 2, 2]
+            },
+            {
+              "name": "COMPARE_INTERVAL",
+              "customName": "compareInterval",
+              "path": [11, 2, 3]
+            },
+            {
+              "name": "TEXT_EQUAL",
+              "customName": "textEqual",
+              "path": [11, 2, 4]
+            },
+            {
+              "name": "TEXT_CONTAIN",
+              "customName": "textContain",
+              "path": [11, 2, 5]
+            },
+            {
+              "name": "VARIABLE_EXIST",
+              "customName": "variableExist",
+              "path": [11, 2, 6]
+            },
+            {
+              "name": "LOCATE_IN_REGION",
+              "customName": "locateInRegion",
+              "path": [11, 2, 7]
+            },
+            {
+              "name": "TEXT_START_WITH",
+              "customName": "textStartWith",
+              "path": [11, 2, 8]
+            },
+            {
+              "name": "TEXT_END_WITH",
+              "customName": "textEndWith",
+              "path": [11, 2, 9]
+            },
+            {
+              "name": "ENTITY_TYPE",
+              "customName": "entityType",
+              "path": [11, 6, 0]
+            },
+            {
+              "name": "ENTITY_NAME_EQUAL",
+              "customName": "entityNameEqual",
+              "path": [11, 6, 1]
+            },
+            {
+              "name": "ENTITY_STAND_ON_BLOCK",
+              "customName": "entityStandOnBlock",
+              "path": [11, 6, 2]
+            },
+            {
+              "name": "ENTITY_NEAR_LOCATION",
+              "customName": "entityNearLocation",
+              "path": [11, 6, 3]
+            },
+            {
+              "name": "ENTITY_IS_MOB",
+              "customName": "entityIsMob",
+              "path": [11, 6, 4]
+            },
+            {
+              "name": "ENTITY_IS_NPC",
+              "customName": "entityIsNpc",
+              "path": [11, 6, 5]
+            },
+            {
+              "name": "ENTITY_IS_PROJECTILE",
+              "customName": "entityIsProjectile",
+              "path": [11, 6, 6]
+            },
+            {
+              "name": "ENTITY_HAS_POTION_EFFECT",
+              "customName": "entityHasPotionEffect",
+              "path": [11, 6, 7]
+            },
+            {
+              "name": "VARIABLE_EQUAL",
+              "customName": "variableEqual",
+              "path": [12, 2, 0]
+            },
+            {
+              "name": "VARIABLE_NOT_EQUAL",
+              "customName": "variableNotEqual",
+              "path": [12, 2, 1]
+            },
+            {
+              "name": "COMPARE_NUMBER",
+              "customName": "compareNumber",
+              "path": [12, 2, 2]
+            },
+            {
+              "name": "COMPARE_INTERVAL",
+              "customName": "compareInterval",
+              "path": [12, 2, 3]
+            },
+            {
+              "name": "TEXT_EQUAL",
+              "customName": "textEqual",
+              "path": [12, 2, 4]
+            },
+            {
+              "name": "TEXT_CONTAIN",
+              "customName": "textContain",
+              "path": [12, 2, 5]
+            },
+            {
+              "name": "VARIABLE_EXIST",
+              "customName": "variableExist",
+              "path": [12, 2, 6]
+            },
+            {
+              "name": "LOCATE_IN_REGION",
+              "customName": "locateInRegion",
+              "path": [12, 2, 7]
+            },
+            {
+              "name": "TEXT_START_WITH",
+              "customName": "textStartWith",
+              "path": [12, 2, 8]
+            },
+            {
+              "name": "TEXT_END_WITH",
+              "customName": "textEndWith",
+              "path": [12, 2, 9]
+            },
+            {
+              "name": "ENTITY_TYPE",
+              "customName": "entityType",
+              "path": [12, 6, 0]
+            },
+            {
+              "name": "ENTITY_NAME_EQUAL",
+              "customName": "entityNameEqual",
+              "path": [12, 6, 1]
+            },
+            {
+              "name": "ENTITY_STAND_ON_BLOCK",
+              "customName": "entityStandOnBlock",
+              "path": [12, 6, 2]
+            },
+            {
+              "name": "ENTITY_NEAR_LOCATION",
+              "customName": "entityNearLocation",
+              "path": [12, 6, 3]
+            },
+            {
+              "name": "ENTITY_IS_MOB",
+              "customName": "entityIsMob",
+              "path": [12, 6, 4]
+            },
+            {
+              "name": "ENTITY_IS_NPC",
+              "customName": "entityIsNpc",
+              "path": [12, 6, 5]
+            },
+            {
+              "name": "ENTITY_IS_PROJECTILE",
+              "customName": "entityIsProjectile",
+              "path": [12, 6, 6]
+            },
+            {
+              "name": "ENTITY_HAS_POTION_EFFECT",
+              "customName": "entityHasPotionEffect",
+              "path": [12, 6, 7]
+            }
+          ],
+  "BASIS":
+          [
+            {
+              "name": "EVENT",
+              "customName": "event"
+            },
+            {
+              "name": "FUNCTION",
+              "customName": "func"
+            },
+            {
+              "name": "CYCLE",
+              "customName": "cycle"
+            },
+            {
+              "name": "PLAYER_ACTION",
+              "customName": "player"
+            },
+            {
+              "name": "SET_VARIABLE",
+              "customName": "var"
+            },
+            {
+              "name": "GAME_ACTION",
+              "customName": "game"
+            },
+            {
+              "name": "ARRAY_ACTION",
+              "customName": "array"
+            },
+            {
+              "name": "IF_GAME",
+              "customName": "ifGame"
+            },
+            {
+              "name": "IF_VARIABLE",
+              "customName": "ifVar"
+            },
+            {
+              "name": "IF_ENTITY",
+              "customName": "ifEntity"
+            },
+            {
+              "name": "IF_PLAYER",
+              "customName": "ifPlayer"
+            },
+            {
+              "name": "SELECT_OBJECT",
+              "customName": "select"
+            }
+          ],
+  "OBJECTS":
+          [
+            {
+              "name": "ITEM",
+              "customName": "Item"
+            },
+            {
+              "name": "POSITION",
+              "customName": "Position"
+            },
+            {
+              "name": "PARAMETER",
+              "customName": "Apple"
+            }
+          ]
+}

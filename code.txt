@@ -1,0 +1,8 @@
+event <join> {
+    `creator` = "Iliushenka";
+    player.sendMessage("HELLO FRIEND", 52);
+}
+
+event <leave> {
+
+}

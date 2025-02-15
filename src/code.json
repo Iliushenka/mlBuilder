@@ -1,0 +1,79 @@
+[
+  [
+    [
+      [
+        "block",
+        "minecraft:diamond_block"
+      ],
+      [
+        "path",
+        [
+          11,
+          0
+        ]
+      ]
+    ],
+    [
+      [
+        "block",
+        "minecraft:iron_block"
+      ],
+      [
+        "path",
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        "values",
+        {
+          "type": "STRING",
+          "value": "Iliushenka",
+          "save": false
+        }
+      ]
+    ],
+    [
+      [
+        "block",
+        "minecraft:cobblestone"
+      ],
+      [
+        "path",
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        "values",
+        {
+          "type": "STRING",
+          "value": "HELLO FRIEND",
+          "save": false
+        },
+        {
+          "type": "NUMBER",
+          "value": 52.0,
+          "save": false
+        }
+      ]
+    ]
+  ],
+  [
+    [
+      [
+        "block",
+        "minecraft:diamond_block"
+      ],
+      [
+        "path",
+        [
+          11,
+          1
+        ]
+      ]
+    ]
+  ]
+]
